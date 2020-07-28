@@ -1,6 +1,6 @@
 # Compressed-Sparse-Blocks
 
-This is a direct port from http://people.eecs.berkeley.edu/~aydin/csb/html/index.html.
+This is a direct fork from http://people.eecs.berkeley.edu/~aydin/csb/html/index.html.
 
 Compressed Sparse Blocks (CSB) Library (Cilk Plus implementation)
 
