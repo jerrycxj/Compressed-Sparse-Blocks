@@ -1,9 +1,6 @@
-# Compressed-Sparse-Blocks
+# Compressed Sparse Blocks (CSB) Library (Cilk Plus implementation)
 
-This is a direct fork from http://people.eecs.berkeley.edu/~aydin/csb/html/index.html.
-
-Compressed Sparse Blocks (CSB) Library (Cilk Plus implementation)
-------------------------------------------------------------------------------------------
+This is a direct fork from http://people.eecs.berkeley.edu/~aydin/csb/html/index.html
 
 **Author**
 Aydın Buluç (in collaboration with Hasan Metin Aktulga, James Demmel, Jeremy Fineman, Matteo Frigo, John Gilbert, Charles Leiserson, Lenny Oliker, Sam Williams).
