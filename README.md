@@ -8,7 +8,7 @@ Compressed Sparse Blocks (CSB) Library (Cilk Plus implementation)
 Aydın Buluç (in collaboration with Hasan Metin Aktulga, James Demmel, Jeremy Fineman, Matteo Frigo, John Gilbert, Charles Leiserson, Lenny Oliker, Sam Williams).
 This material is based upon work supported by the National Science Foundation under Grants No. 0540248, 0615215, 0712243, 0822896, and 0709385, by MIT Lincoln Laboratory under contract 7000012980, and by the Department of Energy, Office of Science, ASCR Contract No. DE-AC02-05CH11231. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation (NSF) and the Department of Energy (DOE). This software is released under the MIT license.
 
-##Introduction
+## Introduction
 
 The Compressed Sparse Blocks (CSB) is a storage format for sparse matrices that does not favor rows over columns (and vice-versa), hence offering performance symmetry in shared-memory parallel systems for Ax and A'x. The format is originally described in this paper [1]. It has been later improved through the incorporation of bitmasked register blocks in this paper [2] where an algorithm for symmetric matrices is also proposed. Finally this recent paper [3] includes performance results for the multiple vector cases.
 
@@ -19,7 +19,7 @@ Sparse Matrix-Transpose-Vector Multiplication (SpMV_T)
 Sparse Matrix-Multiple-Vector Multiplication (SpMM)
 Sparse Matrix-Transpose-Multiple-Vector Multiplication (SpMM_T)
 
-##Download
+## Download
 
 Download the [library and drivers as a tarball including the source code](http://eecs.berkeley.edu/~aydin/csb/csb2014.tgz).
 
@@ -27,7 +27,7 @@ All operations can be done on an arbitrary semiring by overloading add() and mul
 
 The driver will accept matrices in text-based triples format and a binary format for faster benchmarking (created using this matlab script). The library also includes functions to convert from the common CSC format though the conversion is serial and not optimized for performance yet. An example input in (compressed) ascii and in (compressed) binary.
 
-##How to run it?
+## How to run it?
 
 Read the example makefile. Here is a README file.
 Running this code on a 8-core Intel processor is done by the following way (similar for other executables):
