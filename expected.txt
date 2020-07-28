@@ -1,0 +1,27 @@
+./spmm_d8 asic_320k.bin nosym binary
+Reading matrix with dimensions: 321821-by-321821 having 1931828 nonzeros
+Reading matrix in binary took 0.019 seconds
+# workers: 4
+Beta chosen to be 4096
+generating 8 multi vectors... 
+starting SpMV ... 
+Row imbalance is: 7.06374
+Col imbalance is: 7.20923
+BiCSB time: 0.0138657 seconds
+BiCSB mflop/sec: 2229.19
+starting SpMV_T
+BiCSB Trans time: 0.0131818 seconds
+BiCSB Trans mflop/sec: 2344.84
+BiCSB Total time: 0.0270475 seconds
+BiCSB Total mflop/sec: 2285.55
+CSC time: 0.0636877 seconds
+CSC mflop/sec: 485.325
+Max error is: 0 on y[0][0]=-0.0143215
+Absolute machine epsilon is: 2.22045e-16 and y[0][0]*EPSILON becomes -3.18e-18
+sqrt(n) * relative error is: 1.80399e-15
+Transposed CSC time: 0.0511229 seconds
+Transposed CSC mflop/sec: 604.607
+Max error is: 2.84217e-12 on y[43171][1]=-616.838
+Absolute machine epsilon is: 2.22045e-16 and y[43171][1]*EPSILON becomes -1.36966e-13
+sqrt(n) * relative error is: 7.76996e-11
+
